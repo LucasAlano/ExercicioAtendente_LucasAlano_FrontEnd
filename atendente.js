@@ -11,7 +11,7 @@ function addusermessage() {
 
     let txtvalue = txtinput.value
 
-    newmessage.innerHTML = `${txtvalue}`
+    newmessage.innerHTML = `${txtvalue} <br>`
     
     section.appendChild(user)
     section.appendChild(newmessage)
@@ -34,7 +34,7 @@ function addhelpermessage() {
     
     let txtvalue = txtinput.value
 
-    newmessage.innerHTML = `${txtvalue} `
+    newmessage.innerHTML = `${txtvalue} <br>`
     
     section.appendChild(helper)
     section.appendChild(newmessage)
